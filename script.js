@@ -1,4 +1,5 @@
-const baseURL = 'sheet.svg';
+const baseURL =
+  'https://raw.githubusercontent.com/kristofsch/web-platform-tzckwd/main/sheet.svg';
 
 class MyIconElement extends HTMLElement {
   static get observedAttributes() {
