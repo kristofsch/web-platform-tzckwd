@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Demo of Icons using Web Components</title>
+    <script type="module" src="script.js"></script>
+  </head>
+
+  <!-- The template for our icon -->
+  <template id="my-icon">
+    <style>
+      svg {
+        width: 1em;
+        height: 1em;
+        fill: currentColor;
+      }
+    </style>
+
+    <svg xmlns="http://www.w3.org/2000/svg">
+      <!-- this needs to have a xlink:href already otherwise it fails -->
+      <use id="use" xlink:href=""></use>
+    </svg>
+  </template>
+
+  <button>
+    <my-icon name="plus"></my-icon>
+    Add
+  </button>
+
+  <button>
+    <my-icon name="cross"></my-icon>
+    Remove
+  </button>
+</html>
