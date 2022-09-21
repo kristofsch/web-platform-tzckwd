@@ -1,4 +1,5 @@
-const baseURL = './assets/sheet.svg';
+const baseURL =
+  'https://cdn.jsdelivr.net/gh/kristofsch/web-platform-tzckwd@master/assets/sheet.svg';
 
 class MyIconElement extends HTMLElement {
   static get observedAttributes() {
